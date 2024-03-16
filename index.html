@@ -9,6 +9,531 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body {
+    height: 100%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F5F5DC;
+}
+.banner-photo {
+    height: auto;
+    width: 100%;
+}
+#sardar-patel-banner-photo {
+    height: auto;
+    width: 101%;
+}
+.short-intro {
+    margin-top: 10px;
+    height: 120px;
+    width: 100%;
+    padding: 30px;
+}
+.short-line {
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    color: #ff6347;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.big-line {
+    height: 50px;
+    width: 100%;
+    padding: 6px;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 6px;
+}
+.img-text-portion {
+    height: auto;
+    width: auto;
+    padding: 100px;
+    display: flex;
+    gap: 10%;
+}
+#sardar-patel-small-photo {
+    height: 400px;
+    width: 500px;
+    border: 10px double brown;
+}
+.text-box {
+    height: auto;
+    padding: 30px;
+    width: auto;
+    background-color: #ff6347;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+    margin-left: auto;
+}
+#intro {
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+}
+
+.img-text-introduction {
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 270px;
+    padding: 30px;
+    margin-top: 160px;
+    margin-left: 70px;
+}
+
+.img {
+    height: 400px;
+    width: 500px;
+}
+
+#Sardar-Patel-Big-Photo-1 {
+    height: 450px;
+    width: 500px;
+}
+
+.text {
+    height: auto;
+    width: 640px;
+    margin-left: -100px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.612);
+}
+
+#First-Letter {
+    font-size: 30px;
+    font-weight: 900;
+    color: maroon;
+    font-family: monospace;
+}
+
+#inner-text {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.imgs-portion {
+    margin-top: 90px;
+    height: auto;
+    width: 100%;
+
+}
+.first-portion-of-imgs {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.second-portion-of-img {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+#sem {
+    height: 100px;
+    width: 200px;
+    background-color: magenta;
+    margin-top: -30px;
+}
+#big-name{
+    font-size: xx-large;
+    text-align: center;
+}
+.typewrite {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#class12 {
+    text-align: center;
+}
+#img2 {
+    width: auto;
+}
+.imgs-portion {
+    height: 1700px;
+    width: 100%;
+    padding: 100px;
+}
+.container {
+    position: relative;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: height 0.5s ease;
+    backdrop-filter: blur(9.2px);
+}
+
+.container:hover .image {
+    transform: scale(1.1);
+}
+
+.container:hover .overlay {
+    height: 70%;
+}
+
+.first-portion {
+    height: auto;
+    display: auto;
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+#title-of-working {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+li {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.accordion {
+    margin-top: 230px;
+}
+#title-overlay {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff6347;
+}
+#para-overlay {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.big-div-of-fact {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-fact {
+    height: auto;
+    width:  60%;
+    padding: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+.end-portion1 {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end-portion {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro-of-mine {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.my-intro {
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#type {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links {
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+.logo {
+    color: black;
+}
+
+#logo:hover {
+    transition: transform 0.3s ease-out;
+    transform: scale(1.3);
+    color: #ff6347;
+}
+
+/* Write media quary here */
+
+
+@media screen and (max-width: 363px) {
+    .banner-photo{
+        height: 110px;
+    }
+    #sardar-patel-banner-photo {
+        height: 30px;
+        width: 100%;
+    }
+    .text {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 948px) {
+    .img-text-portion {
+        width: auto;
+        flex-direction: column;
+    }
+    .text-box {
+        margin-right: 111px;
+    }
+    .img-text-introduction {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1197px) {
+    .banner-photo{
+        height: 110px;
+    }
+    #sardar-patel-banner-photo {
+        height: auto;
+        width: 100%;
+    }
+    .big-name {
+        margin-top: 5%;
+    }
+    .text-box {
+        height: auto;
+        padding: 30px;
+        width: 510px;
+        background-color: #ff6347;
+        margin-top: 10px;
+        font-size: 10px;
+        color: white;
+        margin-left: auto;
+    }
+    .img-text-portion {
+        height: auto;
+        width: auto;
+        padding: 100px;
+        display: flex;
+        gap: 50px;
+    }
+    .img-text-introduction {
+        margin-right: 10px;
+    }
+    .text {
+        width: auto;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1198px) {
+    .big-name {
+        margin-top: 50px;
+    }
+    .text{
+        margin-left: -200px;
+    }
+    #img2 {
+        height: auto;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .container:hover .overlay {
+        height: 70%;
+    }
+    #para-overlay {
+        font-size: 13px;
+    }
+    .r1 {
+        font-size: 24px;
+    }
+    #img2 {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #con-1 {
+        width: 300px;
+        margin-left: -40px;
+    }
+    .intro-of-mine {
+        margin-top: 400px;
+    }
+    .banner-photo{
+        height: 80px;
+    }
+    #para-overlay {
+        font-size: 10px;
+    }
+    #sardar-patel-banner-photo {
+        height: 70px;
+        width: 100%;
+    }
+    .short-intro {
+        height: 240px;
+        width: 100%;
+        padding: 30px;
+    }
+    .img-text-portion {
+        height: 1000px;
+        width: auto;
+        padding: 90px;
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+    }
+    #sardar-patel-small-photo {
+        height: 180px;
+        width: 230px;
+        border: transparent;
+        border-radius: 10%/10%;
+        box-shadow: 3px 2px 3px 2px;
+    }
+    .container:hover .overlay {
+        height: 100%;
+    }
+    .imgs-portion{
+        margin-top: -80px;
+    }
+    .inner-fact {
+        width: 380px;
+    }     
+    .text-box {
+        height: auto;
+        padding: 30px;
+        width: 80vw;
+        background-color: #ff6347;
+        margin-top: 30px;
+        font-size: 0.8rem;
+        margin-left: -30px;
+    }
+    
+    .img {
+        height: auto;
+        width: 100%;
+    }
+    #Sardar-Patel-Big-Photo-1 {
+        margin-top: 30vh;
+        height: 310px;
+        width: 345px;
+        border: 9px double #ff6347;
+        border-radius: 30px;
+    }
+    .free-div {
+        height: 100px;
+        width: 100%;
+    }
+    .text {
+        height: auto;
+        width: 375px;
+        margin-top: -290px;
+        margin-left: 3px;
+        background-color: white;
+        color: rgba(0, 0, 0, 0.612);    
+    }
+    .img-text-introduction {
+        height: 700px;
+        margin-top: -190px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 350px;
+        padding: 30px;
+        margin-left: -5px;
+    }
+    #First-Letter {
+        font-size: 30px;
+        font-weight: 900;
+        color: maroon;
+        font-family: monospace;
+    }
+    #inner-text {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        line-height: 2.5;
+        font-size: 18px;
+    }
+    #accordionFlushExample {
+        margin-top: 2300px;
+    }
+    .first-portion {
+        flex-direction: column;
+    }
+    .container {
+        position: relative;
+        height: 300px;
+        width: 200px;
+        overflow: hidden;
+    }
+    #img2 {
+        height: 100%;
+        width: 100%;
+    }
+    .big-div-of-fact {
+        margin-top: 30vh;
+    }
+}
+        </style>
 </head>
 
 <body>
